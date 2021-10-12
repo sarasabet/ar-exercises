@@ -26,3 +26,5 @@ puts "----------"
   mens_apparel: true,
   womens_apparel: false
 )
+
+puts "The count of Store is #{Store.count}"
