@@ -6,3 +6,7 @@ class Employee < ActiveRecord::Base
 end
 
 #  presence valica=daets not being empty/blanck
+# two syntax bellow are same, 1. is newer 2. is older style
+# :presence => true
+# presence: true
+# (mname:name) = (:name)
